@@ -1,0 +1,44 @@
+@import url(./__background/cover__background.css);
+@import url(./__subtitle/cover__subtitle.css);
+@import url(./__title/cover__title.css);
+
+.cover {
+    font-family: 'Inter', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 48px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    max-width: 100%;
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+    color: #fff;
+    text-decoration: none;
+    min-height: 740px;
+    max-width: 1184px;
+    margin: 0 auto;
+    text-decoration: none;
+}
+
+.cover:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,1);
+    opacity: 0.5;
+    z-index: -1;
+    transition: opacity 200ms ease-in-out;
+  }
+
+  .cover:hover:before {
+    opacity: 0.8;
+  }

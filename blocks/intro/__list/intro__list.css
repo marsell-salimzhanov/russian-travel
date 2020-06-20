@@ -1,0 +1,17 @@
+.intro__list {
+    max-width: 690px;
+    min-height: 90px;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1.5;
+    margin: 32px 0 0 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+@media (max-width: 320px) {
+    .intro__list {
+        font-size: 12px;
+        line-height: 18px;
+    }
+}

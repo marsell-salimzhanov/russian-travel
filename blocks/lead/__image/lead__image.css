@@ -1,0 +1,14 @@
+.lead__image {
+  max-height: 615px;
+  object-fit: cover;
+  display: block;
+  margin: 64px auto 8px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .lead__image {
+    box-sizing: content-box;
+  }
+}

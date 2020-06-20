@@ -1,0 +1,29 @@
+@import url(./__title/lead__title.css);
+@import url(./__subtitle/lead__subtitle.css);
+@import url(./__image/lead__image.css);
+@import url(./__caption/lead__caption.css);
+
+.lead {
+    font-family: 'Inter', Arial, sans-serif;
+    padding: 0;
+    margin: 40px auto;
+    width: 100%;
+    padding: 0 48px 0 48px;
+    max-width: 1184px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+
+  @media (max-width: 768px) {
+    .lead {
+      padding: 0 24px 0 24px;
+    }
+  }
+
+  @media (max-width: 320px) {
+    .lead {
+      padding: 0 16px 0 16px;
+    }
+  }
