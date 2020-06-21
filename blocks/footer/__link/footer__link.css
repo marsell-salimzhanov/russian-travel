@@ -9,7 +9,7 @@
     color: #FFFFFF;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 426px) {
     .footer__link {
         display: inline-block;
         margin-bottom: 32px;
