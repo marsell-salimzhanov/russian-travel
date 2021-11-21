@@ -1,0 +1,25 @@
+.container_big {
+  max-width: calc(100% - 48px * 2);
+}
+
+@media (max-width: 1024px) {
+  .container_big {
+    max-width: calc(100% - 48px * 2);
+  }
+
+  .container_big.cover {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .container_big {
+    max-width: calc(100% - 24px * 2);
+  }
+}
+
+@media (max-width: 568px) {
+  .container_big {
+    max-width: calc(100% - 16px * 2);
+  }
+}

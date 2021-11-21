@@ -1,0 +1,15 @@
+.place__link {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.2;
+    /* identical to box height, or 122% */
+    text-decoration-line:underline;
+    color: #FFFFFF;
+    vertical-align: bottom;
+}

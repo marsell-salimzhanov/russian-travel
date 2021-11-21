@@ -1,0 +1,8 @@
+.link-animation {
+    margin: 0;
+    padding: 0;
+}
+
+.link-animation:hover {
+    opacity: 0.8;
+}

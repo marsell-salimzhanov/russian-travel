@@ -1,0 +1,20 @@
+.place__url-heading {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-bottom: 12px;
+    padding: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 1,67;
+    /* identical to box height, or 100% */
+    color: #AAAAAA;
+    letter-spacing: 0.2em;
+}
+
+@media (max-width: 768px) {
+    .place__url-heading {
+        line-height: 1;
+    }
+  }

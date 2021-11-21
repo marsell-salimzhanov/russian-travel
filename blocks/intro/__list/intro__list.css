@@ -1,0 +1,18 @@
+@import url(./_font-weight_400/intro__list_font-weight_400.css);
+
+.intro__list {
+    min-height: 90px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1.5;
+    margin: 32px 0 0 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+@media (max-width: 320px) {
+    .intro__list {
+        font-size: 12px;
+        line-height: 18px;
+    }
+}

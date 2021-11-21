@@ -1,0 +1,23 @@
+.footer__link {
+    display: inline;
+    text-decoration: none;
+    font-style: normal;
+    margin-right: 18px;
+    padding: 0;
+}
+
+.footer__link:last-of-type {
+    margin-right: 0;
+}
+
+@media (max-width: 568px) {
+    .footer__link {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 32px;
+    }
+
+    .footer__link:last-of-type {
+        margin-bottom: 0;
+    }
+}
