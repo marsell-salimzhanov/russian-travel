@@ -1,11 +1,7 @@
 .root {
-    background-color: #2A2C2F;
+    background-color: #2a2c2f;
     color: #ffffff;
     font-weight: 400;
     font-size: 18px;
-    font-family: 'Inter', Arial, sans-serif;
-}
-
-/*div, h1, h2, h3, p, img, ul, li, header,section {
-    border: 1px solid red;
+    font-family: "Inter", Arial, sans-serif;
 }
