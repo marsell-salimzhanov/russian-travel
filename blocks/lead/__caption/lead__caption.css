@@ -7,3 +7,9 @@
   padding: 0;
   align-self: flex-start;
 }
+
+@media (max-width: 768px) {
+  .container .lead__caption {
+    margin-left: 24px;
+  }
+}

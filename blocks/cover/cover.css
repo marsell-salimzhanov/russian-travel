@@ -2,3 +2,9 @@
   margin: 0 auto;
   width: 100%;
 }
+
+@media (max-width: 1024px) {
+  .container_size_big.cover {
+    max-width: 100%;
+  }
+}

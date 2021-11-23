@@ -2,3 +2,21 @@
     width: 100%;
     margin: 0 auto;
 }
+
+@media (max-width: 1190px) {
+    .container.places {
+        max-width: calc(100% - 48px * 2);
+    }
+}
+
+@media (max-width: 768px) {
+    .container.places {
+        max-width: calc(100% - 24px * 2);
+    }
+}
+
+@media (max-width: 568px) {
+    .container.places {
+        max-width: 100%;
+    }
+}

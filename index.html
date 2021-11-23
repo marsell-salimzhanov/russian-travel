@@ -10,12 +10,12 @@
 
 <body class="root">
   <div class="page">
-    <header class="header container container_big">
+    <header class="header container container_size_big">
       <img class="logo" src="./images/header-logo.svg" alt="Карта России">
-      <div>
-        <a class="header__lang-link link-animation header__lang-link_active" href="#">Ru</a>
-        <a class="header__lang-link link-animation" href="#">En</a>
-      </div>
+      <ul class="header__lang-links">
+        <li><a class="header__lang-link link-animation header__lang-link_active" href="#">Ru</a></li>
+        <li><a class="header__lang-link link-animation" href="#">En</a></li>
+      </ul>
     </header>
 
     <main class="page__main">
@@ -40,21 +40,23 @@
             Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.
           </p>
           <ul class="intro__list">
-            <li class="intro__list-item">Часовых поясов<span class="intro__list-item"> 11</span>
+            <li class="intro__list-item">Часовых поясов<span class="intro__list-item_text-type_number"> 11</span>
             </li>
-            <li class="intro__list-item">Объектов природного наследия ЮНЕСКО<span class="intro__list-item">
+            <li class="intro__list-item">Объектов природного наследия ЮНЕСКО<span
+                class="intro__list-item_text-type_number">
                 12</span></li>
-            <li class="intro__list-item">Объектов культурного наследия ЮНЕСКО<span class="intro__list-item">
+            <li class="intro__list-item">Объектов культурного наследия ЮНЕСКО<span
+                class="intro__list-item_text-type_number">
                 16</span></li>
-            <li class="intro__list-item">Природных заповедников<span class="intro__list-item">
+            <li class="intro__list-item">Природных заповедников<span class="intro__list-item_text-type_number">
                 105</span></li>
-            <li class="intro__list-item">Аэропортов<span class="intro__list-item"> 241</span>
+            <li class="intro__list-item">Аэропортов<span class="intro__list-item_text-type_number"> 241</span>
             </li>
           </ul>
         </div>
       </section>
 
-      <div class="photo-grid container container_big">
+      <section class="photo-grid container container_size_big">
         <img class="photo-grid__item" src="./images/__item1.png" alt="поезд">
         <img class="photo-grid__item" src="./images/__item2.png" alt="Гора">
         <img class="photo-grid__item" src="./images/__item3.png" alt="Туман">
@@ -67,15 +69,15 @@
         <img class="photo-grid__item" src="./images/__item10.png" alt="Камчатка">
         <img class="photo-grid__item" src="./images/__item11.png" alt="Байкал">
         <img class="photo-grid__item" src="./images/__item12.png" alt="Егарки">
-      </div>
+      </section>
 
       <section class="places container">
-        <div class="place">
+        <article class="place">
           <h2 class="place__title">Куршская коса</h2>
           <img class="place__image" src="./images/place1.png" alt="Куршская коса">
           <div class="place__website">
             <p class="place__url-heading">URL</p>
-            <a class="place__link link-animation" href="http://park-kosa.ru">park-kosa.ru</a>
+            <a class="place__link link-animation" href="http://park-kosa.ru" target="_blank">park-kosa.ru</a>
           </div>
           <div class="place__paragraph">
             <p class="place__text">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта —
@@ -89,14 +91,15 @@
               окуная в спокойствие природы и запах стального, прохладного моря.
             </p>
           </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
           <h2 class="place__title">Кольский</h2>
           <img class="place__image" src="./images/place2.png" alt="Кольский">
           <div class="place__website">
             <p class="place__url-heading">URL</p>
             <a class="place__link link-animation"
-              href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy">National Geographic</a>
+              href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="_blank">National
+              Geographic</a>
           </div>
           <div class="place__paragraph">
             <p class="place__text">Почти весь полуостров находится за Полярным кругом. Саамская тундра, от которой на юг
@@ -112,14 +115,14 @@
               в Мурманск.
             </p>
           </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
           <h2 class="place__title">Алтай</h2>
           <img class="place__image" src="./images/place3.png" alt="Алтай">
           <div class="place__website">
             <p class="place__url-heading">URL</p>
             <a class="place__link link-animation"
-              href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822">Facebook</a>
+              href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" target="_blank">Facebook</a>
           </div>
           <div class="place__paragraph">
             <p class="place__text">Алтай — одно из красивейших мест в России.
@@ -133,13 +136,14 @@
               а на равнинах пасутся косули. И знаменитые манулы — тоже обитатели Алтайского края.
             </p>
           </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
           <h2 class="place__title">Зимний Байкал</h2>
           <img class="place__image" src="./images/place4.png" alt="Зимний Байкал">
           <div class="place__website">
             <p class="place__url-heading">URL</p>
-            <a class="place__link link-animation" href="https://vk.com/baikalmile">https://vk.com/baikalmile</a>
+            <a class="place__link link-animation" href="https://vk.com/baikalmile"
+              target="_blank">https://vk.com/baikalmile</a>
           </div>
           <div class="place__paragraph">
             <p class="place__text">Всем известен Байкал как крупнейшее озеро
@@ -152,13 +156,13 @@
               В марте 2019 года на фестивале «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.
             </p>
           </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
           <h2 class="place__title">Карелия</h2>
           <img class="place__image" src="./images/place5.png" alt="Карелия">
           <div class="place__website">
             <p class="place__url-heading">URL</p>
-            <a class="place__link" href="http://vodlozero.ru">http://vodlozero.ru/</a>
+            <a class="place__link" href="http://vodlozero.ru" target="_blank">http://vodlozero.ru/</a>
           </div>
           <div class="place__paragraph">
             <p class="place__text">Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская лиственница
@@ -169,11 +173,11 @@
               в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.
             </p>
           </div>
-        </div>
+        </article>
       </section>
 
-      <section class="cover container container_big">
-        <a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala">
+      <section class="cover container container_size_big">
+        <a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
           <h2 class="cover__title">До Байкала «на собаках»</h2>
           <p class="cover__subtitle">По мотивам учебной темы о Транссибе и iframes — путешествие от столицы до Байкала
             на электричках.</p>
@@ -182,21 +186,22 @@
 
     </main>
 
-    <footer class="footer container container_big">
+    <footer class="footer container container_size_big">
       <nav>
         <ul class="footer__links">
-          <li class="footer__link"><a class="link-animation footer__link-item" href="https://yandex.ru/maps">Карты</a>
+          <li class="footer__link"><a class="link-animation footer__link-item" href="https://yandex.ru/maps"
+              target="_blank">Карты</a>
           </li>
-          <li class="footer__link"><a class="footer__link-item link-animation"
-              href="https://yandex.ru/pogoda">Погода</a>
+          <li class="footer__link"><a class="footer__link-item link-animation" href="https://yandex.ru/pogoda"
+              target="_blank">Погода</a>
           </li>
-          <li class="footer__link"><a class="footer__link-item link-animation"
-              href="https://rasp.yandex.ru">Расписание</a>
+          <li class="footer__link"><a class="footer__link-item link-animation" href="https://rasp.yandex.ru"
+              target="_blank">Расписание</a>
           </li>
-          <li class="footer__link"><a class="footer__link-item link-animation"
-              href="https://calendar.yandex.ru">Календарь</a></li>
-          <li class="footer__link"><a class="footer__link-item link-animation"
-              href="https://travel.yandex.ru">Путешествия</a></li>
+          <li class="footer__link"><a class="footer__link-item link-animation" href="https://calendar.yandex.ru"
+              target="_blank">Календарь</a></li>
+          <li class="footer__link"><a class="footer__link-item link-animation" href="https://travel.yandex.ru"
+              target="_blank">Путешествия</a></li>
         </ul>
       </nav>
       <p class="footer__copyright">© 2020. Марсель Салимжанов</p>

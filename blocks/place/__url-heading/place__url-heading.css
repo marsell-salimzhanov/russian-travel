@@ -7,9 +7,9 @@
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
-    line-height: 1,67;
+    line-height: 1.67;
     /* identical to box height, or 100% */
-    color: #AAAAAA;
+    color: #aaaaaa;
     letter-spacing: 0.2em;
 }
 
@@ -17,4 +17,4 @@
     .place__url-heading {
         line-height: 1;
     }
-  }
+}
