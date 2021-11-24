@@ -4,19 +4,19 @@
 }
 
 @media (max-width: 1190px) {
-    .container.places {
+    .places {
         max-width: calc(100% - 48px * 2);
     }
 }
 
-@media (max-width: 768px) {
-    .container.places {
+@media (max-width: 900px) {
+    .places {
         max-width: calc(100% - 24px * 2);
     }
 }
 
 @media (max-width: 568px) {
-    .container.places {
+    .places {
         max-width: 100%;
     }
 }

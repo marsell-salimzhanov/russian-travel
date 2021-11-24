@@ -2,13 +2,7 @@
   max-width: calc(100% - 48px * 2);
 }
 
-@media (max-width: 1024px) {
-  .container_size_big {
-    max-width: calc(100% - 48px * 2);
-  }
-}
-
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .container_size_big {
     max-width: calc(100% - 24px * 2);
   }

@@ -9,7 +9,13 @@
 }
 
 @media (max-width: 768px) {
-  .container .lead__caption {
+  .lead__caption {
     margin-left: 24px;
+  }
+}
+
+@media (max-width: 568px) {
+  .lead__caption {
+    margin-left: 16px;
   }
 }
