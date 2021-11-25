@@ -7,7 +7,7 @@
     margin: 0;
     padding: 0;
     vertical-align: bottom;
-    align-self: bottom;
+    align-self: end;
 }
 
 @media (max-width: 768px) {

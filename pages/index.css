@@ -11,7 +11,7 @@
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/container/container.css);
 @import url(../blocks/places/places.css);
-@import url(../blocks/container/_big/container_size_big.css);
+@import url(../blocks/container/_size/container_size_big.css);
 @import url(../blocks/link-animation/link-animation.css);
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__link/cover__link.css);
